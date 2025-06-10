@@ -1,0 +1,7 @@
+class User {
+    private string name;
+}
+
+function login(user) {
+    return true;
+}

@@ -21,6 +21,6 @@ def classify_code(filename):
         print(f"Error while processing {filename}: {e}")
 
 if __name__ == '__main__':
-    files = ['test_cases/oop_sample.txt', 'test_cases/pp_sample.txt', 'test_cases/hybrid_sample.txt']
+    files = ['test_cases/oop_sample.txt', 'test_cases/pp_sample.txt', 'test_cases/hybrid_sample.txt', 'test_cases/test1.txt']
     for file in files:
         classify_code(file)
